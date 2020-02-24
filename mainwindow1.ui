@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>764</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>771</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/img/img/Dame Chinoises.jpg);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>580</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton#pushButton_2  {
+  color:#3232ff;
+font-family: Helvetica, Arial, sans-serif;
+ font-weight: bold;
+  display: block;
+  font-size: 20px;
+ 
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+QPushButton#pushButton_2:pressed {
+color:white;
+ font-size: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+QPushButton#pushButton_2:disabled {
+color : gray;
+}</string>
+    </property>
+    <property name="text">
+     <string>PLAY AGAIN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>-50</x>
+      <y>560</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton#pushButton  {
+  color:white;
+font-family: Helvetica, Arial, sans-serif;
+ font-weight: bold;
+  display: block;
+  font-size: 15px;
+ 
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+QPushButton#pushButton:pressed {
+color:#3232ff;
+ font-size: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>CONFIG</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>560</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+ QPushButton#pushButton_3  {
+  color:white;
+	font-family: Helvetica, Arial, sans-serif;
+ font-weight: bold;
+  display: block;
+  font-size: 15px;
+ 
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
+QPushButton#pushButton_3:pressed {
+color:#3232ff;
+ font-size: 25px;
+  width: 100px;
+  height: 100px;
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>ABOUT</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>764</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

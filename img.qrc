@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/backgorund.png</file>
+        <file>img/chinese checkers.png</file>
+        <file>img/configuration-png-8.png</file>
+        <file>img/help.png</file>
+        <file>img/téléchargement.png</file>
+        <file>img/Dame Chinoises.jpg</file>
+        <file>img/flou.jpg</file>
+        <file>img/qmsg box.jpg</file>
+        <file>img/bluewin.jpg</file>
+        <file>img/computer.jpg</file>
+        <file>img/draw.jpg</file>
+        <file>img/win.jpg</file>
+        <file>img/computer won.jpg</file>
+    </qresource>
+</RCC>

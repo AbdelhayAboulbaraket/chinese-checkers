@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyDialog</class>
+ <widget class="QDialog" name="MyDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>680</width>
+    <height>287</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/img/img/qmsg box.jpg);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>0</y>
+     <width>651</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white; font-size: 40px;font-family: 'Arial Black', Gadget, sans-serif;</string>
+   </property>
+   <property name="text">
+    <string>QUE VOULEZ VOUS SAVOIR ?</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>150</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_2 {
+color: white ;
+font-family: 'Arial Black', Gadget, sans-serif; font-size:23px;
+text-transform: uppercase;
+background: black;
+padding: 5px;
+border-radius: 20px;
+display: inline-block;
+border: none;
+}
+
+ QPushButton#pushButton_2:hover {
+color:black;
+background: white	;
+letter-spacing: 1px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Niveaux du Jeu</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>220</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton_3 {
+color: white ;
+font-family: 'Arial Black', Gadget, sans-serif; font-size:23px;
+text-transform: uppercase;
+background: black;
+padding: 5px;
+border-radius: 20px;
+display: inline-block;
+border: none;
+}
+
+ QPushButton#pushButton_3:hover {
+color:black;
+background: white	;
+letter-spacing: 1px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>Régles du Jeu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="help_label_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>80</y>
+     <width>221</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>80</y>
+     <width>241</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#pushButton {
+color: white ;
+font-family: 'Arial Black', Gadget, sans-serif; font-size:23px;
+text-transform: uppercase;
+background: black;
+padding: 5px;
+border-radius: 20px;
+display: inline-block;
+border: none;
+}
+
+ QPushButton#pushButton:hover {
+color:black;
+background: white	;
+letter-spacing: 1px;
+
+}</string>
+   </property>
+   <property name="text">
+    <string>But du Jeu</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="help_label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>191</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>pushButton_2</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
+  <zorder>help_label_2</zorder>
+  <zorder>help_label</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
